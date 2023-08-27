@@ -1,0 +1,122 @@
+<!-- 
+Este es el código HTML para un sitio web de portafolio personal. Incluye una sección de encabezado con información del usuario, un menú, enlaces sociales y un botón de descarga. La sección de contenido principal incluye el nombre y el título laboral del usuario.
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portafolio - Ing. Eduardo E. Enríquez R.</title>
+
+    <!-- Se incluyen los archivos CSS y fuentes necesarios para el diseño de la página -->
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="/assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="/assets/css/scroll.css" />
+    <link rel="stylesheet" href="/assets/css/styles_home.css" />
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+  </head>
+
+  <body>
+    <div class="layout">
+      <!-- Sección de encabezado -->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                class="user-info__image"
+                src="/assets/img/perfil.jpg"
+                alt="Foto de perfil"
+              />
+            </div>
+            <h2 class="user-info__name">Ing. Eduardo E. Enríquez R.</h2>
+            <h3 class="user-info__job">Ingeniero de Sistemas</h3>
+          </div>
+          <div class="user-info__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="estudios.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Estudios</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="portafolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="#" class="social_link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social_link">
+                  <i class="social__icon fa-brands fa-github"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social_link">
+                  <i class="social__icon fa-brands fa-twitter"></i>
+                </a>
+              </li>
+              <li class="social__option">
+                <a href="#" class="social_link">
+                  <i class="social__icon fa-brands fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descargar CV</a>
+          </div>
+          <footer class="user-info__footer">
+            <p class="footer__text">&copy; 2024 3E-Asesorías</p>
+          </footer>
+        </section>
+      </aside>
+
+      <!-- Menu responsive -->
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
+
+      <!-- Sección de contenido principal -->
+      <main class="layout__content">
+        <section class="content__page">
+          <h1 class="page__name">Eduardo E. Enríquez R.</h1>
+          <h2 class="page__job">Ingeniero de Sistemas</h2>
+        </section>
+      </main>
+    </div>
+    <script src="assets/js/menu.js" defer></script>
+  </body>
+</html>
